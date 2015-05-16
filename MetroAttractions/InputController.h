@@ -10,7 +10,7 @@
 #import "VHLocationManager.h"
 
 @interface InputController : UITableViewCell<VHLocationManagerDelegate>
-@property (weak, nonatomic) IBOutlet UIView *locationLabel;
+@property (weak, nonatomic) IBOutlet UILabel *currentLocationLabel;
 @property (weak, nonatomic) IBOutlet UITextField *destinationField;
 - (IBAction)goButtonPressed:(id)sender;
 - (IBAction)switchChanged:(id)sender;

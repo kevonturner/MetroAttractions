@@ -48,6 +48,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
+        NSLog(@"called");
     CLLocation *location = [locations lastObject];
     NSLog(@"delegate works");
     if(location != nil){

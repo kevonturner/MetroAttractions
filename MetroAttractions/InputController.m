@@ -16,19 +16,22 @@
 
 @implementation InputController
 
-- (id)init
+
+- (id)initWithCoder:(NSCoder *)aDecoder
 {
-    self = [super init];
+    self = [super initWithCoder:aDecoder];
     self.location = [[VHLocationManager alloc] init];
+    NSLog(@"input created");
     self.location.delegate = self;
+    [self.location findLocation];
     return self;
 }
 
 
-
 - (void)locationFound:(NSDictionary *)location
 {
-    
+    self.currentLocationLabel.text = location[@"name"];
+    NSLog(@"location: %@", location);
 }
 
 

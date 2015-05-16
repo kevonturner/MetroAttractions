@@ -18,6 +18,7 @@
 		68CDF5BA1B07C94800C2D6B2 /* OutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5B91B07C94800C2D6B2 /* OutputViewController.m */; };
 		68CDF5BD1B07D28D00C2D6B2 /* InputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5BC1B07D28D00C2D6B2 /* InputController.m */; };
 		68CDF5C11B07DDAC00C2D6B2 /* VHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5C01B07DDAC00C2D6B2 /* VHLocationManager.m */; };
+		68CDF5C31B07E4B600C2D6B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CDF5C21B07E4B600C2D6B2 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		68CDF5BE1B07DAC100C2D6B2 /* OutputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutputViewController.h; sourceTree = "<group>"; };
 		68CDF5BF1B07DDAC00C2D6B2 /* VHLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHLocationManager.h; sourceTree = "<group>"; };
 		68CDF5C01B07DDAC00C2D6B2 /* VHLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHLocationManager.m; sourceTree = "<group>"; };
+		68CDF5C21B07E4B600C2D6B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CDF5C31B07E4B600C2D6B2 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +77,7 @@
 		68100C1C1B07C5DF00D5C52B = {
 			isa = PBXGroup;
 			children = (
+				68CDF5C21B07E4B600C2D6B2 /* CoreLocation.framework */,
 				68100C271B07C5DF00D5C52B /* MetroAttractions */,
 				68100C441B07C5DF00D5C52B /* MetroAttractionsTests */,
 				68100C261B07C5DF00D5C52B /* Products */,
