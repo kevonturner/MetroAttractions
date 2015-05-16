@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "VHLocationManager.h"
 
 @interface ViewController ()
-
+@property VHLocationManager *lcm;
 @end
 
 @implementation ViewController
@@ -18,6 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

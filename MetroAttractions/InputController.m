@@ -8,15 +8,31 @@
 
 #import "InputController.h"
 
+
+@interface InputController ()
+@property VHLocationManager *location;
+@end
+
+
 @implementation InputController
 
 - (id)init
 {
     self = [super init];
-    
-    
+    self.location = [[VHLocationManager alloc] init];
+    self.location.delegate = self;
     return self;
 }
+
+
+
+- (void)locationFound:(NSDictionary *)location
+{
+    
+}
+
+
+
 
 
 
@@ -28,4 +44,9 @@
 }
 */
 
+- (IBAction)goButtonPressed:(id)sender {
+}
+
+- (IBAction)switchChanged:(id)sender {
+}
 @end
