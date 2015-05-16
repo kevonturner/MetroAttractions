@@ -26,7 +26,7 @@
     
     self.manager.delegate = self;
     [self.manager requestWhenInUseAuthorization];
-   
+        
     
     return self;
 }

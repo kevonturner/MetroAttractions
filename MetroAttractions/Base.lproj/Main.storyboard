@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zfL-ls-Z1O">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -77,19 +78,19 @@
                                                             <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits"/>
-                                                            <variation key="widthClass=compact" fixedFrame="YES">
-                                                                <rect key="frame" x="14" y="83" width="319" height="30"/>
-                                                            </variation>
                                                         </textField>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.37454144540000001" green="1" blue="0.56867237000000004" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
+                                                        <constraint firstItem="bx2-dt-0Nl" firstAttribute="top" secondItem="SXy-Zw-M4F" secondAttribute="bottom" constant="27" id="Eid-Yk-n9s"/>
+                                                        <constraint firstItem="bx2-dt-0Nl" firstAttribute="leading" secondItem="HNr-F3-8AB" secondAttribute="leading" constant="25" id="J15-QJ-39v"/>
                                                         <constraint firstItem="SXy-Zw-M4F" firstAttribute="top" secondItem="HNr-F3-8AB" secondAttribute="top" constant="18" id="MI2-fA-K2N">
                                                             <variation key="widthClass=compact" constant="19"/>
                                                         </constraint>
                                                         <constraint firstAttribute="bottom" secondItem="Hsy-Qu-LgS" secondAttribute="bottom" constant="12" id="Pnh-oN-ato"/>
                                                         <constraint firstAttribute="trailing" secondItem="SXy-Zw-M4F" secondAttribute="trailing" constant="74" id="W3R-6X-K5f"/>
                                                         <constraint firstItem="SXy-Zw-M4F" firstAttribute="leading" secondItem="HNr-F3-8AB" secondAttribute="leading" constant="52" id="YbH-H1-Ymk"/>
+                                                        <constraint firstAttribute="trailing" secondItem="bx2-dt-0Nl" secondAttribute="trailing" constant="25" id="bFB-yC-mwx"/>
                                                         <constraint firstItem="Rhz-H4-dwL" firstAttribute="leading" secondItem="HNr-F3-8AB" secondAttribute="leading" constant="34" id="bqV-kl-G1I">
                                                             <variation key="widthClass=compact" constant="33"/>
                                                         </constraint>
@@ -112,13 +113,16 @@
                                                             <exclude reference="bx2-dt-0Nl"/>
                                                         </mask>
                                                         <mask key="constraints">
+                                                            <exclude reference="Pnh-oN-ato"/>
+                                                            <exclude reference="stD-fa-Djs"/>
                                                             <exclude reference="MI2-fA-K2N"/>
                                                             <exclude reference="W3R-6X-K5f"/>
                                                             <exclude reference="YbH-H1-Ymk"/>
+                                                            <exclude reference="Eid-Yk-n9s"/>
+                                                            <exclude reference="J15-QJ-39v"/>
+                                                            <exclude reference="bFB-yC-mwx"/>
                                                             <exclude reference="bqV-kl-G1I"/>
                                                             <exclude reference="cfx-SE-FEO"/>
-                                                            <exclude reference="Pnh-oN-ato"/>
-                                                            <exclude reference="stD-fa-Djs"/>
                                                             <exclude reference="fY8-Mz-zw1"/>
                                                             <exclude reference="kw8-0d-0NT"/>
                                                             <exclude reference="qpQ-zC-t0G"/>
@@ -133,13 +137,16 @@
                                                             <include reference="bx2-dt-0Nl"/>
                                                         </mask>
                                                         <mask key="constraints">
+                                                            <include reference="Pnh-oN-ato"/>
+                                                            <include reference="stD-fa-Djs"/>
                                                             <include reference="MI2-fA-K2N"/>
                                                             <include reference="W3R-6X-K5f"/>
                                                             <include reference="YbH-H1-Ymk"/>
+                                                            <include reference="Eid-Yk-n9s"/>
+                                                            <include reference="J15-QJ-39v"/>
+                                                            <include reference="bFB-yC-mwx"/>
                                                             <include reference="bqV-kl-G1I"/>
                                                             <include reference="cfx-SE-FEO"/>
-                                                            <include reference="Pnh-oN-ato"/>
-                                                            <include reference="stD-fa-Djs"/>
                                                             <include reference="fY8-Mz-zw1"/>
                                                             <include reference="kw8-0d-0NT"/>
                                                             <include reference="qpQ-zC-t0G"/>
@@ -181,6 +188,7 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="bikeSwitch" destination="Z3m-m9-hgI" id="8Lh-cy-XBZ"/>
                                             <outlet property="currentLocationLabel" destination="SXy-Zw-M4F" id="wtU-Kg-c4u"/>
                                             <outlet property="destinationField" destination="bx2-dt-0Nl" id="bci-E8-2mF"/>
                                         </connections>

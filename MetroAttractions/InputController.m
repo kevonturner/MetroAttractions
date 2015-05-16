@@ -48,6 +48,10 @@
 */
 
 - (IBAction)goButtonPressed:(id)sender {
+    NSString *searchString = self.destinationField.text;
+    NSString *currentLocation = self.currentLocationLabel.text;
+    BOOL hasBike = [self.bikeSwitch isOn];
+  
 }
 
 - (IBAction)switchChanged:(id)sender {
