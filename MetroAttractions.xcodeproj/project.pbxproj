@@ -19,6 +19,7 @@
 		68CDF5BD1B07D28D00C2D6B2 /* InputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5BC1B07D28D00C2D6B2 /* InputController.m */; };
 		68CDF5C11B07DDAC00C2D6B2 /* VHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5C01B07DDAC00C2D6B2 /* VHLocationManager.m */; };
 		68CDF5C31B07E4B600C2D6B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CDF5C21B07E4B600C2D6B2 /* CoreLocation.framework */; };
+		68CDF5C61B07ECE500C2D6B2 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5C51B07ECE500C2D6B2 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		68CDF5BF1B07DDAC00C2D6B2 /* VHLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHLocationManager.h; sourceTree = "<group>"; };
 		68CDF5C01B07DDAC00C2D6B2 /* VHLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHLocationManager.m; sourceTree = "<group>"; };
 		68CDF5C21B07E4B600C2D6B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		68CDF5C41B07ECE500C2D6B2 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		68CDF5C51B07ECE500C2D6B2 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				68100C291B07C5DF00D5C52B /* Info.plist */,
+				68CDF5C41B07ECE500C2D6B2 /* SearchViewController.h */,
+				68CDF5C51B07ECE500C2D6B2 /* SearchViewController.m */,
 				68100C2A1B07C5DF00D5C52B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -247,6 +252,7 @@
 				68CDF5BD1B07D28D00C2D6B2 /* InputController.m in Sources */,
 				68100C2E1B07C5DF00D5C52B /* AppDelegate.m in Sources */,
 				68100C341B07C5DF00D5C52B /* ViewController.m in Sources */,
+				68CDF5C61B07ECE500C2D6B2 /* SearchViewController.m in Sources */,
 				68100C2B1B07C5DF00D5C52B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
