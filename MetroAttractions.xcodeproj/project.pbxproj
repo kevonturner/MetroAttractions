@@ -15,6 +15,8 @@
 		68100C391B07C5DF00D5C52B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68100C381B07C5DF00D5C52B /* Images.xcassets */; };
 		68100C3C1B07C5DF00D5C52B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68100C3A1B07C5DF00D5C52B /* LaunchScreen.xib */; };
 		68100C481B07C5DF00D5C52B /* MetroAttractionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68100C471B07C5DF00D5C52B /* MetroAttractionsTests.m */; };
+		68CDF5BA1B07C94800C2D6B2 /* OutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5B91B07C94800C2D6B2 /* OutputViewController.m */; };
+		68CDF5BD1B07D28D00C2D6B2 /* InputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5BC1B07D28D00C2D6B2 /* InputController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		68100C411B07C5DF00D5C52B /* MetroAttractionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroAttractionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68100C461B07C5DF00D5C52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68100C471B07C5DF00D5C52B /* MetroAttractionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroAttractionsTests.m; sourceTree = "<group>"; };
+		68CDF5B81B07C94800C2D6B2 /* OutputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputViewController.h; sourceTree = "<group>"; };
+		68CDF5B91B07C94800C2D6B2 /* OutputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputViewController.m; sourceTree = "<group>"; };
+		68CDF5BB1B07D28D00C2D6B2 /* InputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputController.h; sourceTree = "<group>"; };
+		68CDF5BC1B07D28D00C2D6B2 /* InputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				68100C2D1B07C5DF00D5C52B /* AppDelegate.m */,
 				68100C321B07C5DF00D5C52B /* ViewController.h */,
 				68100C331B07C5DF00D5C52B /* ViewController.m */,
+				68CDF5B81B07C94800C2D6B2 /* OutputViewController.h */,
+				68CDF5B91B07C94800C2D6B2 /* OutputViewController.m */,
+				68CDF5BB1B07D28D00C2D6B2 /* InputController.h */,
+				68CDF5BC1B07D28D00C2D6B2 /* InputController.m */,
 				68100C351B07C5DF00D5C52B /* Main.storyboard */,
 				68100C381B07C5DF00D5C52B /* Images.xcassets */,
 				68100C3A1B07C5DF00D5C52B /* LaunchScreen.xib */,
@@ -222,7 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CDF5BA1B07C94800C2D6B2 /* OutputViewController.m in Sources */,
 				68100C311B07C5DF00D5C52B /* MetroAttractions.xcdatamodeld in Sources */,
+				68CDF5BD1B07D28D00C2D6B2 /* InputController.m in Sources */,
 				68100C2E1B07C5DF00D5C52B /* AppDelegate.m in Sources */,
 				68100C341B07C5DF00D5C52B /* ViewController.m in Sources */,
 				68100C2B1B07C5DF00D5C52B /* main.m in Sources */,
@@ -416,6 +428,7 @@
 				68100C4D1B07C5DF00D5C52B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68100C4E1B07C5DF00D5C52B /* Build configuration list for PBXNativeTarget "MetroAttractionsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				68100C501B07C5DF00D5C52B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
