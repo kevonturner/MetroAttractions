@@ -20,7 +20,30 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-   
+    NSString *filePath =  [[NSBundle mainBundle] pathForResource:@"stops" ofType:@"json"];
+    NSLog(@"called");
+    NSData *stopsData = [NSData dataWithContentsOfFile:filePath];
+    NSArray *stopsJson = [NSJSONSerialization JSONObjectWithData:stopsData options:0 error:nil];
+    NSLog(stopsJson);
+    AppDelegate *appDelegate =
+    [[UIApplication sharedApplication] delegate];
+    NSManagedObjectContext *context =
+    [appDelegate managedObjectContext];
+    NSManagedObject *newContact;
+    newContact = [NSEntityDescription
+                  insertNewObjectForEntityForName:@"Stops"
+                  inManagedObjectContext:context];
+    
+    for(NSDictionary *stop in stopsJson){
+        [newContact setValue:stop[@"stop_lat"] forKey:@"stop_lat"];
+        [newContact setValue:stop[@"stop_long"] forKey:@"stop_long"];
+        [newContact setValue:stop[@"stop_name"] forKey:@"stop_name"];
+        [newContact setValue:@"" forKey:@"route_time"];
+       
+    }
+    
+    NSError *error;
+    [context save:&error];
     
     /*
     AppDelegate *appDelegate =

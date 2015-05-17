@@ -12,6 +12,8 @@
 #import <Parse/Parse.h>
 #import "SearchViewController.h"
 
+#import "AppDelegate.h"
+
 @interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property NSString *currentLocation;
