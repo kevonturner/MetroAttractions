@@ -20,7 +20,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-   
+    [PFCloud callFunctionInBackground:@"findAttractions" withParameters:@{@"lat": @1319, @"long" : @24148, @"time" : @28} block:^(id object, NSError *error) {
+        
+    }];
     
     /*
     AppDelegate *appDelegate =

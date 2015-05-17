@@ -15,6 +15,7 @@
 		68100C391B07C5DF00D5C52B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68100C381B07C5DF00D5C52B /* Images.xcassets */; };
 		68100C3C1B07C5DF00D5C52B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68100C3A1B07C5DF00D5C52B /* LaunchScreen.xib */; };
 		68100C481B07C5DF00D5C52B /* MetroAttractionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68100C471B07C5DF00D5C52B /* MetroAttractionsTests.m */; };
+		686AA6B71B0859D700A38F41 /* searchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 686AA6B61B0859D700A38F41 /* searchCell.m */; };
 		686E5BD81B08570100AE238A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686E5BD61B08570100AE238A /* AudioToolbox.framework */; };
 		686E5BD91B08570100AE238A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686E5BD71B08570100AE238A /* CFNetwork.framework */; };
 		686E5BDB1B08570A00AE238A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686E5BDA1B08570A00AE238A /* CoreGraphics.framework */; };
@@ -62,6 +63,8 @@
 		68100C411B07C5DF00D5C52B /* MetroAttractionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroAttractionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68100C461B07C5DF00D5C52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68100C471B07C5DF00D5C52B /* MetroAttractionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroAttractionsTests.m; sourceTree = "<group>"; };
+		686AA6B51B0859D700A38F41 /* searchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchCell.h; sourceTree = "<group>"; };
+		686AA6B61B0859D700A38F41 /* searchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchCell.m; sourceTree = "<group>"; };
 		686E5BD61B08570100AE238A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		686E5BD71B08570100AE238A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		686E5BDA1B08570A00AE238A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -157,6 +160,8 @@
 			children = (
 				68100C2C1B07C5DF00D5C52B /* AppDelegate.h */,
 				68100C2D1B07C5DF00D5C52B /* AppDelegate.m */,
+				686AA6B51B0859D700A38F41 /* searchCell.h */,
+				686AA6B61B0859D700A38F41 /* searchCell.m */,
 				68100C321B07C5DF00D5C52B /* ViewController.h */,
 				68100C331B07C5DF00D5C52B /* ViewController.m */,
 				68CDF5BE1B07DAC100C2D6B2 /* OutputViewController.h */,
@@ -306,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686AA6B71B0859D700A38F41 /* searchCell.m in Sources */,
 				68CDF5BA1B07C94800C2D6B2 /* OutputViewController.m in Sources */,
 				68CDF5C11B07DDAC00C2D6B2 /* VHLocationManager.m in Sources */,
 				68100C311B07C5DF00D5C52B /* MetroAttractions.xcdatamodeld in Sources */,
