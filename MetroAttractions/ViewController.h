@@ -10,6 +10,7 @@
 #import "InputController.h"
 #import <CoreData/CoreData.h>
 
+
 @interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 

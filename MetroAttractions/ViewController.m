@@ -20,14 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    NSString *filePath =  [[NSBundle mainBundle] pathForResource:@"stops" ofType:@"json"];
-    
-    NSData *stopsData = [NSData dataWithContentsOfFile:filePath];
-    NSArray *stopsJson = [NSJSONSerialization JSONObjectWithData:stopsData options:nil error:nil];
-    
-    for(NSDictionary *stop in stopsJson){
-     
-    }
+   
     
     /*
     AppDelegate *appDelegate =

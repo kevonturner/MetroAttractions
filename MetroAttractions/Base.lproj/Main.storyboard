@@ -211,7 +211,7 @@
                     <navigationItem key="navigationItem" id="zsH-0L-2Dr"/>
                     <connections>
                         <outlet property="tableView" destination="NU3-6S-nrP" id="nMd-FK-ZNl"/>
-                        <segue destination="uO1-gh-c6p" kind="show" id="pkj-ql-TIw"/>
+                        <segue destination="uO1-gh-c6p" kind="show" identifier="search" id="pkj-ql-TIw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -227,6 +227,7 @@
                         <viewControllerLayoutGuide type="bottom" id="NTL-6o-TJJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="psJ-xj-3Bi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="155" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="alL-J1-oe9">
@@ -254,10 +255,10 @@
                                 <exclude reference="alL-J1-oe9"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="Gzv-8p-2N1"/>
                                 <exclude reference="E5d-yF-s3h"/>
                                 <exclude reference="ZlG-Ok-CKw"/>
                                 <exclude reference="tDa-oO-gCy"/>
-                                <exclude reference="Gzv-8p-2N1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -265,10 +266,10 @@
                                 <include reference="alL-J1-oe9"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="Gzv-8p-2N1"/>
                                 <include reference="E5d-yF-s3h"/>
                                 <include reference="ZlG-Ok-CKw"/>
                                 <include reference="tDa-oO-gCy"/>
-                                <include reference="Gzv-8p-2N1"/>
                             </mask>
                         </variation>
                     </view>
