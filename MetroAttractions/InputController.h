@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "VHLocationManager.h"
+#import "ViewController.h"
 
+@class ViewController;
 @interface InputController : UITableViewCell<VHLocationManagerDelegate>
 @property (weak, nonatomic) IBOutlet UISwitch *bikeSwitch;
 @property (weak, nonatomic) IBOutlet UILabel *currentLocationLabel;
 @property (weak, nonatomic) IBOutlet UITextField *destinationField;
+@property ViewController *vc;
 - (IBAction)goButtonPressed:(id)sender;
-- (IBAction)switchChanged:(id)sender;
 
 @end

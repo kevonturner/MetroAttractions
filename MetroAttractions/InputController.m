@@ -48,12 +48,14 @@
 */
 
 - (IBAction)goButtonPressed:(id)sender {
+    NSLog(@"button pressed");
     NSString *searchString = self.destinationField.text;
     NSString *currentLocation = self.currentLocationLabel.text;
-    BOOL hasBike = [self.bikeSwitch isOn];
-  
+    self.vc.currentLocation = currentLocation;
+    self.vc.time = searchString;
+    [self.vc performSegueWithIdentifier:@"search" sender:self.vc];
+   
 }
 
-- (IBAction)switchChanged:(id)sender {
-}
+
 @end

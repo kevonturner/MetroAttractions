@@ -10,10 +10,12 @@
 #import "InputController.h"
 #import <CoreData/CoreData.h>
 #import <Parse/Parse.h>
+#import "SearchViewController.h"
 
 @interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-
+@property NSString *currentLocation;
+@property NSString * time;
 
 @end
 

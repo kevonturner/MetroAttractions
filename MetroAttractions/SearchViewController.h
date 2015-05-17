@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SearchViewController : UIViewController
-
+@property NSString *currentLocation;
+@property NSString *timeToSpend;
 @end
