@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "searchCell.h"
+#import <CoreData/CoreData.h>
 
+
+#import "AppDelegate.h"
 @interface SearchViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 @property NSString *currentLocation;
 @property NSString *timeToSpend;
