@@ -20,7 +20,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>126888D4057075555538B379243A2F3E2E264DEA</key>
-		<string>../..MetroAttractions/</string>
+		<string>../..MetroAttractions</string>
 		<key>815A39ACCC32090EB057D85F4915C933C832725C</key>
 		<string>../..</string>
 	</dict>
@@ -46,7 +46,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>126888D4057075555538B379243A2F3E2E264DEA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>MetroAttractions</string>
+			<string>MetroAttractionsMetroAttractions</string>
 		</dict>
 	</array>
 </dict>
