@@ -20,6 +20,33 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    NSString *filePath =  [[NSBundle mainBundle] pathForResource:@"stops" ofType:@"json"];
+    
+    NSData *stopsData = [NSData dataWithContentsOfFile:filePath];
+    NSArray *stopsJson = [NSJSONSerialization JSONObjectWithData:stopsData options:nil error:nil];
+    
+    for(NSDictionary *stop in stopsJson){
+     
+    }
+    
+    /*
+    AppDelegate *appDelegate =
+    [[UIApplication sharedApplication] delegate];
+    
+
+    NSManagedObjectContext *context =
+    [appDelegate managedObjectContext];
+    NSManagedObject *newContact;
+    newContact = [NSEntityDescription
+                  insertNewObjectForEntityForName:@"Stops"
+                  inManagedObjectContext:context];
+    [newContact setValue: _name.text forKey:@"name"];
+    [newContact setValue: _address.text forKey:@"address"];
+    [newContact setValue: _phone.text forKey:@"phone"];
+   
+    NSError *error;
+    [context save:&error];
+    */
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -30,7 +57,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"input"];
-    cell.contentView.backgroundColor = [UIColor redColor];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+
     return cell;
 }
 

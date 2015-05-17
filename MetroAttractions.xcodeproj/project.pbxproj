@@ -20,6 +20,9 @@
 		68CDF5C11B07DDAC00C2D6B2 /* VHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5C01B07DDAC00C2D6B2 /* VHLocationManager.m */; };
 		68CDF5C31B07E4B600C2D6B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CDF5C21B07E4B600C2D6B2 /* CoreLocation.framework */; };
 		68CDF5C61B07ECE500C2D6B2 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDF5C51B07ECE500C2D6B2 /* SearchViewController.m */; };
+		68CDF5C81B0808AB00C2D6B2 /* trips.json in Resources */ = {isa = PBXBuildFile; fileRef = 68CDF5C71B0808AB00C2D6B2 /* trips.json */; };
+		68CDF5CA1B080A2D00C2D6B2 /* stops.json in Resources */ = {isa = PBXBuildFile; fileRef = 68CDF5C91B080A2D00C2D6B2 /* stops.json */; };
+		68CDF5CC1B0814AD00C2D6B2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CDF5CB1B0814AD00C2D6B2 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		68CDF5C21B07E4B600C2D6B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		68CDF5C41B07ECE500C2D6B2 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		68CDF5C51B07ECE500C2D6B2 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		68CDF5C71B0808AB00C2D6B2 /* trips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trips.json; sourceTree = "<group>"; };
+		68CDF5C91B080A2D00C2D6B2 /* stops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stops.json; sourceTree = "<group>"; };
+		68CDF5CB1B0814AD00C2D6B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CDF5CC1B0814AD00C2D6B2 /* CoreData.framework in Frameworks */,
 				68CDF5C31B07E4B600C2D6B2 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +87,7 @@
 		68100C1C1B07C5DF00D5C52B = {
 			isa = PBXGroup;
 			children = (
+				68CDF5CB1B0814AD00C2D6B2 /* CoreData.framework */,
 				68CDF5C21B07E4B600C2D6B2 /* CoreLocation.framework */,
 				68100C271B07C5DF00D5C52B /* MetroAttractions */,
 				68100C441B07C5DF00D5C52B /* MetroAttractionsTests */,
@@ -110,6 +118,10 @@
 				68100C351B07C5DF00D5C52B /* Main.storyboard */,
 				68CDF5BF1B07DDAC00C2D6B2 /* VHLocationManager.h */,
 				68CDF5C01B07DDAC00C2D6B2 /* VHLocationManager.m */,
+				68CDF5C41B07ECE500C2D6B2 /* SearchViewController.h */,
+				68CDF5C51B07ECE500C2D6B2 /* SearchViewController.m */,
+				68CDF5C91B080A2D00C2D6B2 /* stops.json */,
+				68CDF5C71B0808AB00C2D6B2 /* trips.json */,
 				68100C381B07C5DF00D5C52B /* Images.xcassets */,
 				68100C3A1B07C5DF00D5C52B /* LaunchScreen.xib */,
 				68100C2F1B07C5DF00D5C52B /* MetroAttractions.xcdatamodeld */,
@@ -122,8 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				68100C291B07C5DF00D5C52B /* Info.plist */,
-				68CDF5C41B07ECE500C2D6B2 /* SearchViewController.h */,
-				68CDF5C51B07ECE500C2D6B2 /* SearchViewController.m */,
 				68100C2A1B07C5DF00D5C52B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -226,8 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CDF5C81B0808AB00C2D6B2 /* trips.json in Resources */,
 				68100C371B07C5DF00D5C52B /* Main.storyboard in Resources */,
 				68100C3C1B07C5DF00D5C52B /* LaunchScreen.xib in Resources */,
+				68CDF5CA1B080A2D00C2D6B2 /* stops.json in Resources */,
 				68100C391B07C5DF00D5C52B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
