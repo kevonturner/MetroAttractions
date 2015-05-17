@@ -15,6 +15,12 @@
 		68100C391B07C5DF00D5C52B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68100C381B07C5DF00D5C52B /* Images.xcassets */; };
 		68100C3C1B07C5DF00D5C52B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68100C3A1B07C5DF00D5C52B /* LaunchScreen.xib */; };
 		68100C481B07C5DF00D5C52B /* MetroAttractionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68100C471B07C5DF00D5C52B /* MetroAttractionsTests.m */; };
+		6854BF261B08CDA800A83BDC /* image (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6854BF241B08CDA800A83BDC /* image (1).jpg */; };
+		6854BF271B08CDA800A83BDC /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6854BF251B08CDA800A83BDC /* image.jpg */; };
+		6854BF2C1B08CDB800A83BDC /* De-Wehrmacht-pronunciation.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 6854BF281B08CDB800A83BDC /* De-Wehrmacht-pronunciation.ogg */; };
+		6854BF2D1B08CDB800A83BDC /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6854BF291B08CDB800A83BDC /* download (1).jpeg */; };
+		6854BF2E1B08CDB800A83BDC /* download (2).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6854BF2A1B08CDB800A83BDC /* download (2).jpeg */; };
+		6854BF2F1B08CDB800A83BDC /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6854BF2B1B08CDB800A83BDC /* download.jpeg */; };
 		686AA6B71B0859D700A38F41 /* searchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 686AA6B61B0859D700A38F41 /* searchCell.m */; };
 		686E5BD81B08570100AE238A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686E5BD61B08570100AE238A /* AudioToolbox.framework */; };
 		686E5BD91B08570100AE238A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686E5BD71B08570100AE238A /* CFNetwork.framework */; };
@@ -63,6 +69,12 @@
 		68100C411B07C5DF00D5C52B /* MetroAttractionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroAttractionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68100C461B07C5DF00D5C52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68100C471B07C5DF00D5C52B /* MetroAttractionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroAttractionsTests.m; sourceTree = "<group>"; };
+		6854BF241B08CDA800A83BDC /* image (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image (1).jpg"; sourceTree = "<group>"; };
+		6854BF251B08CDA800A83BDC /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		6854BF281B08CDB800A83BDC /* De-Wehrmacht-pronunciation.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "De-Wehrmacht-pronunciation.ogg"; sourceTree = "<group>"; };
+		6854BF291B08CDB800A83BDC /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		6854BF2A1B08CDB800A83BDC /* download (2).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (2).jpeg"; sourceTree = "<group>"; };
+		6854BF2B1B08CDB800A83BDC /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 		686AA6B51B0859D700A38F41 /* searchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchCell.h; sourceTree = "<group>"; };
 		686AA6B61B0859D700A38F41 /* searchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchCell.m; sourceTree = "<group>"; };
 		686E5BD61B08570100AE238A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -160,6 +172,12 @@
 			children = (
 				68100C2C1B07C5DF00D5C52B /* AppDelegate.h */,
 				68100C2D1B07C5DF00D5C52B /* AppDelegate.m */,
+				6854BF241B08CDA800A83BDC /* image (1).jpg */,
+				6854BF251B08CDA800A83BDC /* image.jpg */,
+				6854BF281B08CDB800A83BDC /* De-Wehrmacht-pronunciation.ogg */,
+				6854BF291B08CDB800A83BDC /* download (1).jpeg */,
+				6854BF2A1B08CDB800A83BDC /* download (2).jpeg */,
+				6854BF2B1B08CDB800A83BDC /* download.jpeg */,
 				686AA6B51B0859D700A38F41 /* searchCell.h */,
 				686AA6B61B0859D700A38F41 /* searchCell.m */,
 				68100C321B07C5DF00D5C52B /* ViewController.h */,
@@ -289,9 +307,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6854BF2E1B08CDB800A83BDC /* download (2).jpeg in Resources */,
+				6854BF2C1B08CDB800A83BDC /* De-Wehrmacht-pronunciation.ogg in Resources */,
 				68CDF5C81B0808AB00C2D6B2 /* trips.json in Resources */,
+				6854BF261B08CDA800A83BDC /* image (1).jpg in Resources */,
 				68100C371B07C5DF00D5C52B /* Main.storyboard in Resources */,
 				68100C3C1B07C5DF00D5C52B /* LaunchScreen.xib in Resources */,
+				6854BF2D1B08CDB800A83BDC /* download (1).jpeg in Resources */,
+				6854BF271B08CDA800A83BDC /* image.jpg in Resources */,
+				6854BF2F1B08CDB800A83BDC /* download.jpeg in Resources */,
 				68CDF5CA1B080A2D00C2D6B2 /* stops.json in Resources */,
 				68100C391B07C5DF00D5C52B /* Images.xcassets in Resources */,
 			);

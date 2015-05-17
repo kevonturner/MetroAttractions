@@ -13,14 +13,28 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
-    UIView *loadingView = [UIView new];
-    loadingView.frame = self.view.frame;
-    UIActivityIndicatorView *loading = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
-    loading.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
-    [loading startAnimating];
-    [loadingView addSubview:loading];
-    [self.view addSubview:loadingView];
+  
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    searchCell *cell = [tableView dequeueReusableCellWithIdentifier:@"search"];
+    
+    return cell;
+}
+
+
+
+
+
+
+
+
 
 
 

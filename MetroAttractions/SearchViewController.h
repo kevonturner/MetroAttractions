@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "searchCell.h"
 
-@interface SearchViewController : UIViewController
+@interface SearchViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 @property NSString *currentLocation;
 @property NSString *timeToSpend;
 @end

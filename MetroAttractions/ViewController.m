@@ -20,14 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    NSDate * now = [NSDate date];
-    NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
-    [outputFormatter setDateFormat:@"hh:mm:ss"];
-    NSString *newDateString = [outputFormatter stringFromDate:now];
-    NSLog(@"newDateString %@", newDateString);
-    [PFCloud callFunctionInBackground:@"findAttractions" withParameters:@{@"lat": @29.7520670, @"long" : @-95.3756780, @"time" : @28, @"currentTime" : newDateString} block:^(id object, NSError *error) {
-        
-    }];
+   
     
     /*
     AppDelegate *appDelegate =

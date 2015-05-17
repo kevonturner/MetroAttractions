@@ -184,12 +184,11 @@
                     <navigationItem key="navigationItem" id="zsH-0L-2Dr"/>
                     <connections>
                         <outlet property="tableView" destination="NU3-6S-nrP" id="nMd-FK-ZNl"/>
-                        <segue destination="uO1-gh-c6p" kind="show" identifier="search" id="pkj-ql-TIw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1326" y="434"/>
+            <point key="canvasLocation" x="2323.5" y="422"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="wYJ-ks-Utv">
@@ -384,10 +383,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="rme-VX-jfR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4N-P6-Jz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2025" y="430"/>
+            <point key="canvasLocation" x="1233" y="434"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="h1K-jM-huV">
@@ -400,7 +400,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="rmC-gk-LKH"/>
+                        <segue destination="uO1-gh-c6p" kind="relationship" relationship="rootViewController" id="gDr-Ea-E5g"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="or4-Xw-lF9" userLabel="First Responder" sceneMemberID="firstResponder"/>
