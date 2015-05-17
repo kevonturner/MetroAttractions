@@ -3,12 +3,10 @@ I'm trying to create the minimum data set we need for the
 Here's what we need from the following tables:
 
 ##STOPS
--  stop_id: Use to search STOP_TIMES for trip_id. Those are the routes
-    Then, you can use THOSE routes to identify which of the separated
-    STOP_TIMES files to search.
+-  stop_id: PRIMARY KEY; Use to search STOP_TIMES for trip_id. Those are the routes. Then, you can use THOSE routes to identify which of the separated STOP_TIMES files to search.
 -  stop_lat
 -  stop_long
--  stop_name
+-  stop_name: In most cases, it's the human-understandable location of the stop
 
 ##STOP_TIMES
 -  trip_id: Foreign Key for the TRIPS table 
